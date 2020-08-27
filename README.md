@@ -101,7 +101,19 @@ Este sistema tiene relación con el presente trabajo especfícamente con el circ
 
 ### 4. MARCO TEÓRICO
 
+**¿Qué es la Raspberry Pi?**
 
+Raspberry Pi es un ordenador de limitadas dimensiones y precio que está destinado principalmente al desarrollo de pequeños prototipos y a estimular la enseñanza de las ciencias de la computación en los centros educativos. Desarrollado en hardware libre cuenta con sistemas operativos GNU/Linux como Raspbian, aunque se pueden encontrar otros sistemas operativos optimizados para el hardware de la Raspberry Pi. ( Asociación Programo Ergo Sum, s.f.)
+
+**Hardware y software de la Raspberry Pi**
+
+|**Hardware**|**Software**	|    
+|-------|-----------------------------|
+|Es un producto con propiedad registrada, pero de uso libre. De esa forma la Fundación Raspberry Pi mantiene el control de la plataforma, pero permitiendo su uso libre tanto a nivel educativo como particular.
+Raspberry Pi utiliza una arquitectura para el procesador ARM la cual es de tipo RISC (Reduced Instruction Set Computer), es decir, utiliza un sistema de instrucciones realmente simple lo que le permite ejecutar tareas con un mínimo consumo de energía
+|El software es open source siendo su sistema operativo oficial una versión adaptada de la distribución Debian, denominada Raspbian, aunque permite usar otros sistemas operativos, incluido una versión de Windows 10 IoT Core. La fundación da soporte para las descargas de las distribuciones para arquitectura ARM |
+  
+( Asociación Programo Ergo Sum, s.f.)
 
 ### 5. DIAGRAMAS
 
