@@ -109,8 +109,7 @@ Raspberry Pi es un ordenador de limitadas dimensiones y precio que está destina
 
 |**Hardware**|**Software**	|    
 |-------|-----------------------------|
-|Es un producto con propiedad registrada, pero de uso libre. De esa forma la Fundación Raspberry Pi mantiene el control de la plataforma, pero permitiendo su uso libre tanto a nivel educativo como particular.
-Raspberry Pi utiliza una arquitectura para el procesador ARM la cual es de tipo RISC (Reduced Instruction Set Computer), es decir, utiliza un sistema de instrucciones realmente simple lo que le permite ejecutar tareas con un mínimo consumo de energía|El software es open source siendo su sistema operativo oficial una versión adaptada de la distribución Debian, denominada Raspbian, aunque permite usar otros sistemas operativos, incluido una versión de Windows 10 IoT Core. La fundación da soporte para las descargas de las distribuciones para arquitectura ARM |
+|Es un producto con propiedad registrada, pero de uso libre. De esa forma la Fundación Raspberry Pi mantiene el control de la plataforma, pero permitiendo su uso libre tanto a nivel educativo como particular. Raspberry Pi utiliza una arquitectura para el procesador ARM la cual es de tipo RISC (Reduced Instruction Set Computer), es decir, utiliza un sistema de instrucciones realmente simple lo que le permite ejecutar tareas con un mínimo consumo de energía|El software es open source siendo su sistema operativo oficial una versión adaptada de la distribución Debian, denominada Raspbian, aunque permite usar otros sistemas operativos, incluido una versión de Windows 10 IoT Core. La fundación da soporte para las descargas de las distribuciones para arquitectura ARM |
   
 ( Asociación Programo Ergo Sum, s.f.)
 
