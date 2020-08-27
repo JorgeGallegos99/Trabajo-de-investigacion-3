@@ -113,6 +113,13 @@ Raspberry Pi es un ordenador de limitadas dimensiones y precio que está destina
   
 ( Asociación Programo Ergo Sum, s.f.)
 
+**Modelos de Raspberry Pi**
+
+Actualmente existen dos modelos de Raspberry Pi. 
+El más popular es el Modelo B, que viene con procesador ARM 1176JZF-S a 700 MHz, dos puertos USB 2.0 y Ethernet, siendo el resto de sus características las mismas que os hemos avanzado al principio de este artículo.
+Por su parte, el Modelo A es más asequible, pero prescinde de uno de los dos puertos UB y no tiene capacidad para conectarse a Internet. Asimismo, en su última revisión el Modelo B incluye 512 Mbytes de memoria RAM, existiendo versiones más antiguas con solo 256 Mbytes. (ComputerHoy, 2014)
+
+
 ### 5. DIAGRAMAS
 
 
