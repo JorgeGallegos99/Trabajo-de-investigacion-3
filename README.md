@@ -118,12 +118,14 @@ Raspberry Pi es un ordenador de limitadas dimensiones y precio que está destina
 Actualmente existen dos modelos de Raspberry Pi. El más popular es el Modelo B, que viene con procesador ARM 1176JZF-S a 700 MHz, dos puertos USB 2.0 y Ethernet, siendo el resto de sus características las mismas que os hemos avanzado al principio de este artículo.
 
 ![Modelo B Raspberry Pi](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/ModelB.PNG)
+
 **Figura. Modelo B Raspberry Pi **
 
 Por su parte, el Modelo A es más asequible, pero prescinde de uno de los dos puertos UB y no tiene capacidad para conectarse a Internet. Asimismo, en su última revisión el Modelo B incluye 512 Mbytes de memoria RAM, existiendo versiones más antiguas con solo 256 Mbytes. 
 (ComputerHoy, 2014)
 
 ![Modelo A Raspberry Pi](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/ModelA.PNG)
+
 **Figura. Modelo A Raspberry Pi **
 
 **Node.js**
@@ -131,6 +133,7 @@ Por su parte, el Modelo A es más asequible, pero prescinde de uno de los dos pu
 Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto basado en el lenguaje de programación JavaScript, asíncrono, con Entrada/Salida de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. 
 
 ![Node](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Node.PNG)
+
 **Figura. Node js**
 
 Fue creado por Ryan Dahl en 2009 con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.y su evolución está apadrinada por la empresa Joyent, que además tiene contratado a Dahl en plantilla.
@@ -142,6 +145,7 @@ Node es un es un entorno en tiempo de ejecución multiplataforma de código abie
 JavaScript (JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,  basado en prototipos, imperativo, débilmente tipado y dinámico.
 
 ![Java](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Java.PNG)
+
 **Figura. JavaScript**
 
 JavaScript por sí solo es bastante compacto, aunque muy flexible, y los desarrolladores han escrito gran cantidad de herramientas encima del núcleo del lenguaje JavaScript, desbloqueando una gran cantidad de funcionalidad adicional con un mínimo esfuerzo. Esto incluye:
@@ -156,6 +160,7 @@ JavaScript por sí solo es bastante compacto, aunque muy flexible, y los desarro
 Es un sistema de entrada y salida de propósito general, es decir, consta de una serie de pines o conexiones que se pueden usar como entradas o salidas para múltiples usos. Estos pines están incluidos en todos los modelos de Raspberry Pi.
 
 ![Librería GPIO](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/GPIO.PNG)
+
 **Figura. Librería GPIO**
 
 Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo BCM.
@@ -163,6 +168,7 @@ Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo
 *En el modo BCM, los pines se numeran por la correspondencia en el chip Broadcom (que es la CPU de la Raspberry Pi).
 
 ![Pines GPIO](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/PinesGPIO.PNG)
+
 **Figura. Pines GPIO**
 
 ### 5. DIAGRAMAS
