@@ -115,10 +115,55 @@ Raspberry Pi es un ordenador de limitadas dimensiones y precio que está destina
 
 **Modelos de Raspberry Pi**
 
-Actualmente existen dos modelos de Raspberry Pi. 
-El más popular es el Modelo B, que viene con procesador ARM 1176JZF-S a 700 MHz, dos puertos USB 2.0 y Ethernet, siendo el resto de sus características las mismas que os hemos avanzado al principio de este artículo.
-Por su parte, el Modelo A es más asequible, pero prescinde de uno de los dos puertos UB y no tiene capacidad para conectarse a Internet. Asimismo, en su última revisión el Modelo B incluye 512 Mbytes de memoria RAM, existiendo versiones más antiguas con solo 256 Mbytes. (ComputerHoy, 2014)
+Actualmente existen dos modelos de Raspberry Pi. El más popular es el Modelo B, que viene con procesador ARM 1176JZF-S a 700 MHz, dos puertos USB 2.0 y Ethernet, siendo el resto de sus características las mismas que os hemos avanzado al principio de este artículo.
 
+¡[Modelo B Raspberry Pi]()
+**Figura. Modelo B Raspberry Pi **
+
+Por su parte, el Modelo A es más asequible, pero prescinde de uno de los dos puertos UB y no tiene capacidad para conectarse a Internet. Asimismo, en su última revisión el Modelo B incluye 512 Mbytes de memoria RAM, existiendo versiones más antiguas con solo 256 Mbytes. 
+(ComputerHoy, 2014)
+
+¡[Modelo A Raspberry Pi]()
+**Figura. Modelo A Raspberry Pi **
+
+**Node.js**
+
+Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto basado en el lenguaje de programación JavaScript, asíncrono, con Entrada/Salida de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. 
+
+¡[Node]()
+**Figura. Node js**
+
+Fue creado por Ryan Dahl en 2009 con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.y su evolución está apadrinada por la empresa Joyent, que además tiene contratado a Dahl en plantilla.
+Node.js fue creado por los desarrolladores originales de JavaScript. Lo transformaron de algo que solo podía ejecutarse en el navegador en algo que se podría ejecutar en los ordenadores como si de aplicaciones independientes se tratara. Gracias a Node.js se puede ir un paso más allá en la programación con JavaScript no solo creando sitios web interactivos, sino teniendo la capacidad de hacer cosas que otros lenguajes de secuencia de comandos como Python pueden crear.
+Node es un es un entorno en tiempo de ejecución multiplataforma de código abierto. En el desarrollo web es común verlo como la capa de un servidor que utiliza JS. El que sea de código abierto ha hecho posible instalarlo en una Raspberry Pi. Por otra parte, la gran comunidad que existe se ha encargado de generar una cantidad impresionante de paquetes a un nivel tal, que el manejador de paquetes de Nodejs es el registro de software más grande del mundo.
+(OpenJS Foundation, s.f.)
+
+**JavaScript**
+JavaScript (JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,  basado en prototipos, imperativo, débilmente tipado y dinámico.
+
+¡[Java]()
+**Figura. JavaScript**
+
+JavaScript por sí solo es bastante compacto, aunque muy flexible, y los desarrolladores han escrito gran cantidad de herramientas encima del núcleo del lenguaje JavaScript, desbloqueando una gran cantidad de funcionalidad adicional con un mínimo esfuerzo. Esto incluye:
+* Interfaces de Programación de Aplicaciones del Navegador (APIs) — APIs construidas dentro de los navegadores que ofrecen funcionalidades como crear dinámicamente contenido HTML y establecer estilos CSS, hasta capturar y manipular un vídeo desde la cámara web del usuario, o generar gráficos 3D y muestras de sonido.
+* APIs de terceros, que permiten a los desarrolladores incorporar funcionalidades en sus sitios de otros proveedores de contenidos como Twitter o Facebook.
+* Marcos de trabajo y librerías de terceros que puedes aplicar a tu HTML para que puedas construir y publicar rápidamente sitios y aplicaciones.
+(Mozilla web docs, 2020)
+
+**Librería GPIO**
+
+**Pines GPIO**
+Es un sistema de entrada y salida de propósito general, es decir, consta de una serie de pines o conexiones que se pueden usar como entradas o salidas para múltiples usos. Estos pines están incluidos en todos los modelos de Raspberry Pi.
+
+¡[Librería GPIO]()
+**Figura. Librería GPIO**
+
+Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo BCM.
+*En el modo GPIO, los pines se numeran de forma física por el lugar que ocupan en la placa (representados por el color gris) viene siendo igual para todas las versiones (comenzamos a contar desde arriba a la izquierda y finalizamos abajo a la derecha).
+*En el modo BCM, los pines se numeran por la correspondencia en el chip Broadcom (que es la CPU de la Raspberry Pi).
+
+¡[Pines GPIO]()
+**Figura. Pines GPIO**
 
 ### 5. DIAGRAMAS
 
