@@ -160,7 +160,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 ### 13. CRONOGRAMA
 
-
+![Cronograma](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Cronograma.PNG)
 
 ### 14. BIBLIOGRAFÍA
 
