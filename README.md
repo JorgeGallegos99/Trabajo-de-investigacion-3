@@ -119,14 +119,14 @@ Actualmente existen dos modelos de Raspberry Pi. El más popular es el Modelo B,
 
 ![Modelo B Raspberry Pi](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/ModelB.PNG)
 
-**Figura. Modelo B Raspberry Pi **
+**Figura. Modelo B Raspberry Pi**
 
 Por su parte, el Modelo A es más asequible, pero prescinde de uno de los dos puertos UB y no tiene capacidad para conectarse a Internet. Asimismo, en su última revisión el Modelo B incluye 512 Mbytes de memoria RAM, existiendo versiones más antiguas con solo 256 Mbytes. 
 (ComputerHoy, 2014)
 
 ![Modelo A Raspberry Pi](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/ModelA.PNG)
 
-**Figura. Modelo A Raspberry Pi **
+**Figura. Modelo A Raspberry Pi**
 
 **Node.js**
 
