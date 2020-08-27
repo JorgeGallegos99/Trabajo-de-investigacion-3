@@ -8,11 +8,11 @@
 
 ### 2. OBJETIVOS
 
-## General
+#### General
 
 Diseñar un circuito que permita la entrada y salidas de datos en una Raspberry Pi, para la implementación se utilizará el simulador virtual  Wiliodrin.studio.
 
-## Especifícos
+#### Especifícos
  
 * Crear un circuito que permita la entrada y la salida de datos en una RaspBerry Pi.
 * Conocer la estructura de la Raspberry Pi, el funcionamiento y como utilizarla en circuitos digitales.
@@ -22,7 +22,7 @@ Diseñar un circuito que permita la entrada y salidas de datos en una Raspberry 
 
 ### 3. ESTADO DEL ARTE
 
-**Implementación del Asistente de Google en Rasberry Pi**
+**1. Implementación del Asistente de Google en Rasberry Pi**
 
 Una investigación detallada sobre cómo implementar la voz del asistente de Google en una microcomputadora Raspberry Pi. En el artículo se encuentran todos los detalles y cada uno de los pasos para poder implementar el asistente de Google a este dispositivo que tan solo contiene un micrófono y un altavoz. Además, de la implementación también realizaron la evaluación de un sistema de reconocimiento de voz.
 
@@ -46,7 +46,7 @@ Facultad de Electrónica, Telecomunicaciones e Información, Tecnologías Polite
 
 Este artículo guarda relación con el trabajo de investigación, ya que aunque es diferente la utilizacion es un circuito que recibe la voz como entrada del circuito y como es un buscador devolverá un resultado que seria la salida de datos.
 
-**SMARISA: un anillo inteligente basado en Raspberry Pi para la seguridad de las mujeres con IOT**
+**2. SMARISA: un anillo inteligente basado en Raspberry Pi para la seguridad de las mujeres con IOT**
 
 SMARISA es un anillo que se compone de Raspberry Pi Zero, cámara Raspberry Pi, timbre y botón para activar los servicios, sirve para todas las mujeres de todos los ámbitos de la vida  pues constantemente luchan por estar a salvo y protegerse de la mirada errante de los hombres insensibles que abusan, asaltan y violan la dignidad de las mujeres a diario. ya que exiten muy pocos sitios seguros y debido a estas atrocidades a las que están sometidas las mujeresse propone un wearable de seguridad inteligente para mujeres basado en Internet of Things.  Este dispositivo es extremadamente portátil y puede ser activado por la víctima al ser asaltada con solo hacer clic en un botón que buscará su ubicación actual y también capturará la imagen del atacante a través de la cámara Raspberry Pi. La ubicación y el enlace de la imagen capturada se enviarán a los números de contacto de emergencia predefinidos o a la policía a través del teléfono inteligente de la víctima, lo que evitará el uso de dispositivos / módulos de hardware adicionales y hará que el dispositivo sea compacto.
 
@@ -74,7 +74,7 @@ Departamento de Ciencia e Ingeniería de la Información, Facultad de Ingenierí
 Este anillo al igual que el presente circuito presenta entradas que vendría hacer las pulsaciones de cada mujer y las salidas serian los avisos que le llegan a cada familiar o policia de la victima por lo cual tienen relacion ya que son circuitos de entrada y salida.
 
 
-**Sistema de identificación y conteo de personas mediante raspberry Pi (AU-PiCC: mostrador de clientes de Raspberry Pi)**
+**3. Sistema de identificación y conteo de personas mediante raspberry Pi (AU-PiCC: mostrador de clientes de Raspberry Pi)**
 
 El trabajo de este documento se centra en una implementación de OpenCV en un sistema integrado como Raspberry Pi para crear una mini estación independiente para contar personas. La característica clave de AU-PiCC (Contador de clientes raspberry Pi de Assumption University) es contar una cantidad de personas interesadas en el producto de destino en un área predefinida junto con una identificación facial simple para evitar contar duplicados. Los resultados experimentales muestran que este sistema basado en Raspberry Pi se puede utilizar como una simple estación de contador de personas.
 
@@ -97,6 +97,7 @@ Universidad de la Asunción, Escuela de Ingeniería Vincent Mary (VME), Departam
 *Fecha:* 27-30 de enero de 2016 en la conferencia Internacional de Electrónica, Información y Comunicaciones 2016 (ICEIC)
 
 Este sistema tiene relación con el presente trabajo especfícamente con el circuito contador, ya que si bien este tiene un sitema más avanzado en escencia tiene el mismo objetivo contabilizar algo con ayuda de la Raspberri Pi lo cual vendría hacer un circuito que muestra la salida de datos que sería el numero de personas contabilizadas.
+
 
 ### 4. MARCO TEÓRICO
 
@@ -121,13 +122,13 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
    |           Wiliodrin.studio.           | 
 
    
-
 **Tabla 2: Componentes electronicos del Circuito de Entrada y salida **
 
   | **N°** |**Componentes Electronicos**	|    
-   |-------|------------------------------|
-   |     1 |   Pulsador         |    
-   |     6 |   leds     |     
+   |-------|-----------------------------|
+   |1      |   Raspberry                 |
+   |     1 |   Pulsador                  |    
+   |     6 |   leds                  |     
  
 ### 7. MAPA DE VARIABLES
 
