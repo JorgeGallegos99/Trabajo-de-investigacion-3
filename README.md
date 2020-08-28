@@ -212,11 +212,81 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 **Circuito de Entrada de Datos**
 
-En primer lugar debemos crear una variable a la cual le asignamos el paquete que nos permite controlar los pines de la raspberry, la plataforma Wyliodrin tiene la ventaja de tener instalado el paquete "onoff" el cual sera usado en el desarrollo del programa, en caso de usarse la version de escritorio se debe instalar este paquete ademas de otros archivos adicionales para poder simular la raspberry. 
+Este circuito nos permite ver un Diodo LED parpadeando indefinidamente en intervalos de 1 segundo hata cuando presionamos el botón del pulsador.
 
-Creamos tantos objetos de tipo Gpio como componentes electronicos queramos conecta a la raspberry y los inicializamos mandando como parámetro el número de pin Gpio en el cual el elemento electronico esta conectado y el flujo de datos de este elemento electronico. En este ejemplo tenemos los dos tipos de datos uno de entrada que es el pulsador al cual le asignamos el pin GPIO 22 de la raspberry e indicamos que es un flujo de entrada de datos("in") y el LED que le asignamos el pin GPIO 4 de la raspberry, de ingual manera indicamos la función que cumple, en este caso es la de salida de datos("out"), de esta forma podemos manipular los pnes de la raspberry para que cumpla una determinada función.
+![]()
 
-A continuación 
+Figura.
+
+Creamos un objeto al cual le asignamos el paquete que vamos a usar, para poder controlar los pines de la raspberry debemos usar la librería "onoff"
+
+![]()
+
+Figura. 
+
+Creamos tantos objetos como elementos electronicos tengamos e inicializamos los mismos mandando como parametro el pin GPIO al cual esta conectado el elemento ademas debemos indicar el flujo de datos de cada elemento (entrada - in, salida - out), para nuestro ejemplo el LED representa el flujo de salida de datos y el pulsador el flujo de entrada de datos.
+
+![]()
+
+Figura. 
+
+CICLO WHILE
+
+Como sabemos el ciclo while es una estructura repetitiva que se ejecuta indefinidamente mientras una cierta condicion sea verdadera, cuando esta condicion sea falsa se rompe el ciclo.
+
+La condicion que definimos es que mientras no oprimamos el boton del pulsador, es decir la variable boton tiene guadado un valor de "0", el ciclo se sigue ejecutando y el LED sigue parpadeando indefinidamente, cuando pulsamos el botón le asignamos el valor de "1" a la variable boton haciendo que el ciclo while se rompa y termine la ejecucion del programa.
+
+![]()
+
+Figura.
+
+**Circuito de salida de datos**
+
+En circuito fue configurado con la idea de simular el funcionamiento de un semaforo en estado normal y en estado preventivo.
+Los diodos Led se encienden de igual forma que un semaforo y cada LED permanece encendido durante 3 segundo, luego se apaga y se enciende el siguiente LED. Este proceso se repite 2 veces. 
+Posteriormente luego de haber funcionado como un semáforo en estado normal el cirucito el circuito simula el comportamiento de un semaforo en estado preventivo, es decir, parpadea solo el led de color amarrillo 5 veces y finaliza la ejecucion del programa.
+
+![]()
+
+Figura.
+
+Empezamos creando un objeto que nos permite controlar los pines de la raspberry al cual le asignamos el paquete "onoff" como se hizo en el ejemplo anterior.
+
+![]()
+
+Figura.
+
+Creamos 3 objetos de tipo Gpio uno para cada LED y le asignamos los pines de la raspberry a los cuales estan conetados. En este caso particular todos los elementos del circuito cumplen la funcion de salida de datos.
+
+![]()
+
+Figura. 
+
+CICLO FOR
+como sabemos el ciclo for es una estructura repetitiva controlada. 
+En el primer for nuestro semáfono esta configurado en estado normal.
+
+Impimimos un mensaje que nos indica que la simulación comenzó (linea 7)
+Encendemos el Led rojo (linea 8)
+Con la función sleep hacemos que el Led permanezca encendido durante 3 segundos (linea 9)
+Apagamos el Led rojo (linea 10)
+
+![]()
+
+Figura.
+
+Repetimos el mismo procedimiento con los otros dos diodos LED.
+
+Al tener este bloque de codigo dentro del ciclo for programamos la raspberry para que realice esta configuración de nuestro semáforo 2 veces.
+
+Luego de haber ejecutado el bloque de codigo 2 veces el primer siclo for finaliza y se ejecuta el segundo ciclo for en el cual configuramos a nuestro semaforo en estado preventivo. 
+Imprimimos un mensaje que nos permite indentificar que el ciclo for inició (linea 20)
+Encendemos el Led amarillo (linea 21)
+Con la funcion sleep hacemos que el Led permanezca encendido durante 1 segundos (linea 22)
+Apagamos el Led (linea 23)
+De nuevo con la funcion sleep hacemos que el Led permanezca apagado durante 1 segundo.
+Gracias al ciclo for este bloque de codigo se repite 5 veces.
+Posteriormente finaliza la ejecución del programa.
 
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
@@ -243,3 +313,5 @@ A continuación
 ### 15. ANEXOS
 
 **15.1.  MANUAL DE USUARIO**
+
+Ingresamos a la direccion 
