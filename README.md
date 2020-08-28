@@ -210,6 +210,13 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 ### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 
+**Circuito de Entrada de Datos**
+
+En primer lugar debemos crear una variable a la cual le asignamos el paquete que nos permite controlar los pines de la raspberry, la plataforma Wyliodrin tiene la ventaja de tener instalado el paquete "onoff" el cual sera usado en el desarrollo del programa, en caso de usarse la version de escritorio se debe instalar este paquete ademas de otros archivos adicionales para poder simular la raspberry. 
+
+Creamos tantos objetos de tipo Gpio como componentes electronicos queramos conecta a la raspberry y los inicializamos mandando como parámetro el número de pin Gpio en el cual el elemento electronico esta conectado y el flujo de datos de este elemento electronico. En este ejemplo tenemos los dos tipos de datos uno de entrada que es el pulsador al cual le asignamos el pin GPIO 22 de la raspberry e indicamos que es un flujo de entrada de datos("in") y el LED que le asignamos el pin GPIO 4 de la raspberry, de ingual manera indicamos la función que cumple, en este caso es la de salida de datos("out"), de esta forma podemos manipular los pnes de la raspberry para que cumpla una determinada función.
+
+A continuación 
 
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
