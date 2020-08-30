@@ -314,4 +314,6 @@ Posteriormente finaliza la ejecución del programa.
 
 **15.1.  MANUAL DE USUARIO**
 
-Ingresamos a la direccion 
+1. Ingresamos a la direccion https://beta.wyliodrin.studio/
+
+2. 
