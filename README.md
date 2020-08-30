@@ -175,6 +175,16 @@ Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo
 
 **Figura 6. Pines GPIO**
 
+**Wyliodrin Studio**
+
+Wyliodrin STUDIO facilita la programación y el desarrollo de aplicaciones utilizando una Raspberry Pi y un montón de periféricos, como LED, botones y otros. Pero no todos los usuarios pueden comprar estos dispositivos, o tal vez quieran probar su código antes de ejecutarlo, para asegurarse de que no se destruya ningún componente de hardware. Para este problema, nuestro equipo ideó una solución: el Raspberry Pi Simulator . Esto brinda a los usuarios la posibilidad de simular la salida de un código que se ejecuta en una Raspberry Pi. Los usuarios pueden reflejar el comportamiento de los LED que se encienden y apagan, los botones que se presionan y las pantallas LCD de 16x2. Actualmente, el simulador es bastante restrictivo, permitiendo el uso de solo dos bibliotecas de JavaScript. Sin embargo, estamos trabajando arduamente para extenderlo a otros lenguajes y bibliotecas.
+
+El simulador es realmente sencillo de usar. Puede elegir entre varios circuitos predefinidos. Si desea tener un mejor control sobre la parte de hardware de su proyecto, puede crear su propio esquema usando Fritzing. Con respecto al software, el lenguaje de programación actualmente soportado es JavaScript , pero se tiene la intención de incluir también el soporte de Python.
+
+![Wyliodrin Studio](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/WS.PNG)
+
+**Figura 7. Wyliodrin Studio**
+
 ### 5. DIAGRAMAS
 
 
