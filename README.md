@@ -316,4 +316,24 @@ Posteriormente finaliza la ejecución del programa.
 
 1. Ingresamos a la direccion https://beta.wyliodrin.studio/
 
-2. 
+![]()
+
+Figura.
+
+2.Damos clic en salida
+
+![]()
+
+3. Damos clic en proyects library 
+
+![]()
+
+4. Damos clic en crear una nueva aplicación
+
+![]()
+
+5. Asignamos el nombre de nuestra aplicación y elegimos el lenguje que vamos a utilizar y damos clic en el boton Create P, actualmente la plataforma solo funciona con Node JS
+
+![]()
+
+6. 
