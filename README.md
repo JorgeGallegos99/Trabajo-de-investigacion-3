@@ -177,7 +177,28 @@ Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo
 
 ### 5. DIAGRAMAS
 
+**5.1 Diagramas de Bloques**
 
+Diagrama de funcionamiento de un usuario en el circuito.
+
+![Diagrama%20de%20Bloques.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama%20de%20Bloques.PNG)
+
+**Figura 6. Diagram de Bloques**
+
+
+**5.2 Diagrama UML**
+
+Diagrama de funcionamiento de un usuario en el circuito.
+
+![Funcionamiento.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Funcionamiento.PNG)
+
+**Figura 7. Explicación del Funcionamiento**
+
+**5.3 Diagrama de Pines en RaspBerry Pi**
+
+![RaspberryPi.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/RaspberryPi.png)
+
+**Figura . Pines en Raspberry Pi**
 
 ### 6. LISTA DE COMPONENTES
 
@@ -199,7 +220,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
    |-------|-----------------------------|
    |     1 |   Raspberry                 |
    |     1 |   Pulsador                  |    
-   |     4 |   leds                  |     
+   |     9 |   leds                  |     
  
 ### 7. MAPA DE VARIABLES
 
@@ -275,7 +296,27 @@ Posteriormente finaliza la ejecución del programa.
 
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
-En el circuito para realizar la conexión  tanto de las entradas como de las salidas de los circuitos se hace uso de el simulador en línea. 
+En el circuito para realizar la conexión  tanto de las entradas como de las salidas de los circuitos se hace uso de el simulador en línea WyliodrinStudio que permite trabajar en linea o descargarse en el equipo para trabajar con el.
+
+![Studio.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Studio.PNG)
+
+Tienen diferentes características, entre ellas la que nos interesa es que es compatible con RaspBerry pi.
+
+![Caracteristicas.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Caracteristicas.PNG)
+
+
+ |**Caracteristicas**|
+ |-------------|
+ |  **Notebook**| un tutorial interactivo sobre cómo crear la aplicación| 
+ |**Aplicación** |escriba el código en su idioma visual o de texto favorito| 
+ |**Panel de control** |visualizar señales de datos	|
+ |**Esquemas**  |cargue los esquemas de su proyecto|
+ |**Administrador de archivos**| cree nuevas carpetas y archivos según lo necesite|
+ |**Shell**  |Utilice comandos avanzados para tener un control total sobre sus dispositivos. El caparazón le permite controlar cualquier dispositivo remoto como si estuviera conectado a su teclado.|
+ |**Administración**|conéctese fácilmente a Internet y / o instale / elimine bibliotecas|
+ |**Simuladores** |ejecute aplicaciones sin un dispositivo real|
+ |**Emuladores** | ¿aún no tienes una Raspberry Pi? , el emulador te permite ejecutar todos los proyectos usando tu computadora.|
+
 
 ### 10. APORTACIONES
 
