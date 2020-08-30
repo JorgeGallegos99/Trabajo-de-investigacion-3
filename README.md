@@ -183,7 +183,6 @@ Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo
 
 EL principal componente para el disieño del circuito fue la **Raspberry PI.**
 
-
 En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion del circuito se utilizó un simulador y la plataforma para la implementación.
 
 **Tabla 1: Herramientas de Software usadas para el diseño de los 3 circuitos.**
@@ -198,9 +197,9 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
   | **N°** |**Componentes Electronicos**	|    
    |-------|-----------------------------|
-   |1      |   Raspberry                 |
+   |     1 |   Raspberry                 |
    |     1 |   Pulsador                  |    
-   |     6 |   leds                  |     
+   |     4 |   leds                  |     
  
 ### 7. MAPA DE VARIABLES
 
