@@ -175,16 +175,6 @@ Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo
 
 **Figura 6. Pines GPIO**
 
-**Wyliodrin Studio**
-
-Wyliodrin STUDIO facilita la programación y el desarrollo de aplicaciones utilizando una Raspberry Pi y un montón de periféricos, como LED, botones y otros. Pero no todos los usuarios pueden comprar estos dispositivos, o tal vez quieran probar su código antes de ejecutarlo, para asegurarse de que no se destruya ningún componente de hardware. Para este problema, nuestro equipo ideó una solución: el Raspberry Pi Simulator . Esto brinda a los usuarios la posibilidad de simular la salida de un código que se ejecuta en una Raspberry Pi. Los usuarios pueden reflejar el comportamiento de los LED que se encienden y apagan, los botones que se presionan y las pantallas LCD de 16x2. Actualmente, el simulador es bastante restrictivo, permitiendo el uso de solo dos bibliotecas de JavaScript. Sin embargo, estamos trabajando arduamente para extenderlo a otros lenguajes y bibliotecas.
-
-El simulador es realmente sencillo de usar. Puede elegir entre varios circuitos predefinidos. Si desea tener un mejor control sobre la parte de hardware de su proyecto, puede crear su propio esquema usando Fritzing. Con respecto al software, el lenguaje de programación actualmente soportado es JavaScript , pero se tiene la intención de incluir también el soporte de Python.
-
-![Wyliodrin Studio](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/WS.PNG)
-
-**Figura 7. Wyliodrin Studio**
-
 ### 5. DIAGRAMAS
 
 
@@ -226,33 +216,19 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 **Circuito de Entrada de Datos**
 
-Este circuito nos permite ver un Diodo LED parpadeando indefinidamente en intervalos de 1 segundo hata cuando presionamos el botón del pulsador.
 
-![]()
 
-Figura.
+Este circuito nos permite ver un Diodo LED parpadeando indefinidamente en intervalos de 1 segundo hasta cuando presionamos el botón del pulsador.
 
-Creamos un objeto al cual le asignamos el paquete que vamos a usar, para poder controlar los pines de la raspberry debemos usar la librería "onoff"
+Creamos un objeto al cual le asignamos el paquete que vamos a usar, para poder controlar los pines de la raspberry debemos usar la librería "onoff" (linea 1)
 
-![]()
-
-Figura. 
-
-Creamos tantos objetos como elementos electronicos tengamos e inicializamos los mismos mandando como parametro el pin GPIO al cual esta conectado el elemento ademas debemos indicar el flujo de datos de cada elemento (entrada - in, salida - out), para nuestro ejemplo el LED representa el flujo de salida de datos y el pulsador el flujo de entrada de datos.
-
-![]()
-
-Figura. 
+Creamos tantos objetos como elementos electronicos tengamos e inicializamos los mismos mandando como parametro el pin GPIO al cual esta conectado el elemento ademas debemos indicar el flujo de datos de cada elemento (entrada - in, salida - out), para nuestro ejemplo el LED representa el flujo de salida de datos y el pulsador el flujo de entrada de datos.(Linea 3, Linea 4)
 
 CICLO WHILE
 
-Como sabemos el ciclo while es una estructura repetitiva que se ejecuta indefinidamente mientras una cierta condicion sea verdadera, cuando esta condicion sea falsa se rompe el ciclo.
+Como sabemos el ciclo while es una estructura repetitiva que se ejecuta indefinidamente mientras una cierta condicion sea verdadera, cuando esta condicion sea falsa se rompe el ciclo. (Linea 8)
 
-La condicion que definimos es que mientras no oprimamos el boton del pulsador, es decir la variable boton tiene guadado un valor de "0", el ciclo se sigue ejecutando y el LED sigue parpadeando indefinidamente, cuando pulsamos el botón le asignamos el valor de "1" a la variable boton haciendo que el ciclo while se rompa y termine la ejecucion del programa.
-
-![]()
-
-Figura.
+La condicion que definimos es que mientras no oprimamos el boton del pulsador (Linea 8), es decir la variable boton tiene guadado un valor de "0", el ciclo se sigue ejecutando y el LED sigue parpadeando indefinidamente(Linea 9 enciende el LED, Linea 10 permanece 1 segundo encendido ,Linea 11 Apaga el LED), cuando pulsamos el botón le asignamos el valor de "1" a la variable boton haciendo que el ciclo while se rompa y termine la ejecucion del programa. 
 
 **Circuito de salida de datos**
 
@@ -264,30 +240,18 @@ Posteriormente luego de haber funcionado como un semáforo en estado normal el c
 
 Figura.
 
-Empezamos creando un objeto que nos permite controlar los pines de la raspberry al cual le asignamos el paquete "onoff" como se hizo en el ejemplo anterior.
+Empezamos creando un objeto que nos permite controlar los pines de la raspberry al cual le asignamos el paquete "onoff" como se hizo en el ejemplo anterior. (Linea 1)
 
-![]()
-
-Figura.
-
-Creamos 3 objetos de tipo Gpio uno para cada LED y le asignamos los pines de la raspberry a los cuales estan conetados. En este caso particular todos los elementos del circuito cumplen la funcion de salida de datos.
-
-![]()
-
-Figura. 
+Creamos 3 objetos de tipo Gpio uno para cada LED y le asignamos los pines de la raspberry a los cuales estan conetados. En este caso particular todos los elementos del circuito cumplen la funcion de salida de datos. (Linea 2,3,4)
 
 CICLO FOR
 como sabemos el ciclo for es una estructura repetitiva controlada. 
-En el primer for nuestro semáfono esta configurado en estado normal.
+En el primer for nuestro semáfono esta configurado en estado normal. (Linea 6)
 
 Impimimos un mensaje que nos indica que la simulación comenzó (linea 7)
 Encendemos el Led rojo (linea 8)
 Con la función sleep hacemos que el Led permanezca encendido durante 3 segundos (linea 9)
 Apagamos el Led rojo (linea 10)
-
-![]()
-
-Figura.
 
 Repetimos el mismo procedimiento con los otros dos diodos LED.
 
@@ -346,8 +310,28 @@ Figura.
 
 ![]()
 
-5. Asignamos el nombre de nuestra aplicación y elegimos el lenguje que vamos a utilizar y damos clic en el boton Create P, actualmente la plataforma solo funciona con Node JS
+5. Asignamos el nombre de nuestra aplicación y elegimos el lenguje que vamos a utilizar y damos clic en el boton Create Procjet, actualmente la plataforma solo funciona con Node JS
 
 ![]()
 
-6. 
+6. En la pantalla que se despliega damos clic en el proyecto creado.
+
+![]()
+
+7. Dependiendo del circuito que queramos utilizar copiamos el codigo de la carpeta "Codigo Fuente" y lo pegamos en la pestaña aplicacion.
+
+8. Damos clic en conectar y seleccionamos RaspberryPi
+
+![]()
+
+9. En la pestaña Raspberry Pi Simulator elegimos el circuto predeterminado por la plataforma que este acorde al codigo que copiamos.
+
+![]()
+
+10. Damos clic en el signo de play y comenzara la simulacion
+
+![]()
+
+11. Para el caso del cirucito que tiene el pulsador, el Diodo Led permanecera intermitente hasta que presionemos el boton del pulsador, cuando lo hagamos la simulacion se dentendrá para volver a hacer que el circuito funcione es necesario volver a iniciar la simulación.
+
+12. Para el caso del circuito usado para simular el comportamiento del semáforo solo es necesario iniciar la simulacion cuando se acaben los ciclos for el programa finalizara la ejecucion por si solo.
