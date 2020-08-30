@@ -305,8 +305,8 @@ Tienen diferentes características, entre ellas la que nos interesa es que es co
 ![Caracteristicas.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Caracteristicas.PNG)
 
 
- |**Caracteristicas**|
- |-------------|
+ |**Caracteristicas**------------|
+ |-------------|-------------|
  |  **Notebook**| un tutorial interactivo sobre cómo crear la aplicación| 
  |**Aplicación** |escriba el código en su idioma visual o de texto favorito| 
  |**Panel de control** |visualizar señales de datos	|
