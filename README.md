@@ -276,7 +276,7 @@ Posteriormente finaliza la ejecución del programa.
 
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
-
+En el circuito para realizar la conexión  tanto de las entradas como de las salidas de los circuitos se hace uso de el simulador en línea. 
 
 ### 10. APORTACIONES
 
