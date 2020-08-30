@@ -206,17 +206,21 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
  |**Variable** | 	**Tipo**   | **Descripción**|
  |-------------|----------------|-------------------|
- |A0,A1,A2,A3,A4,A5,A6,A7|  Entrada|Son los bits de Entrada del numero A donde A7 es el bit mas significativo y A0 es el bit menos significativo|
- |B0,B1,B2,B3,B4,B5,B6,B7| Entrada|	Son los bits de Entrada del numero B donde B7 es el bit mas significativo y B0 es el bit menos significativo|
- |S0,S1,S2,S3,S4,S5,S6,S7	| Salida|Son los bits de Salida del resultado de la suma donde S7 es el bit mas significativo y S0 es el bit menos significativo|
- |Ci	  | Entrada	|Acarreo de entrada|
- |CO	  |Salida	  |Acarreo de SalidaSalida|
+ |led, ledRed,ledYellow, ledGreen|  Salida| Variables de salida que se crean con el objetico de controlar los pines GPIO de la raspberry|
+ |Boton| Entrada|	Variable que permite controlar los pines GPIO de la raspberry con el objetivo de recibir los datos ingresados por el usuario |
+ |i,j	| Variables de control de estructura |Variables que permiten controlar los ciclos repetitivos|
+ |Gpio	  | Paquete	|Varible a traz de la cual obtenemos el control de los pines Gpio de la Raspberry pi|
+
 
 ### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 
 **Circuito de Entrada de Datos**
 
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc1.PNG)
 
+**Figura. **
+
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc2.PNG)
 
 Este circuito nos permite ver un Diodo LED parpadeando indefinidamente en intervalos de 1 segundo hasta cuando presionamos el botón del pulsador.
 
@@ -236,7 +240,11 @@ En circuito fue configurado con la idea de simular el funcionamiento de un semaf
 Los diodos Led se encienden de igual forma que un semaforo y cada LED permanece encendido durante 3 segundo, luego se apaga y se enciende el siguiente LED. Este proceso se repite 2 veces. 
 Posteriormente luego de haber funcionado como un semáforo en estado normal el cirucito el circuito simula el comportamiento de un semaforo en estado preventivo, es decir, parpadea solo el led de color amarrillo 5 veces y finaliza la ejecucion del programa.
 
-![]()
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc3.PNG)
+
+Figura.
+
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc4.PNG)
 
 Figura.
 
@@ -294,43 +302,71 @@ Posteriormente finaliza la ejecución del programa.
 
 1. Ingresamos a la direccion https://beta.wyliodrin.studio/
 
-![]()
+2.Damos clic en salida
+
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm1.PNG)
 
 Figura.
 
-2.Damos clic en salida
-
-![]()
-
 3. Damos clic en proyects library 
 
-![]()
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm2.PNG)
+
+Figura.
 
 4. Damos clic en crear una nueva aplicación
 
-![]()
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm3.PNG)
+
+Figura.
 
 5. Asignamos el nombre de nuestra aplicación y elegimos el lenguje que vamos a utilizar y damos clic en el boton Create Procjet, actualmente la plataforma solo funciona con Node JS
 
-![]()
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm4.PNG)
+
+Figura.
 
 6. En la pantalla que se despliega damos clic en el proyecto creado.
 
-![]()
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm5.PNG)
+
+Figura.
 
 7. Dependiendo del circuito que queramos utilizar copiamos el codigo de la carpeta "Codigo Fuente" y lo pegamos en la pestaña aplicacion.
 
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm11.PNG)
+
+Figura.
+
 8. Damos clic en conectar y seleccionamos RaspberryPi
 
-![]()
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm6.PNG)
+
+Figura.
+
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm7.PNG)
+
+Figura. 
 
 9. En la pestaña Raspberry Pi Simulator elegimos el circuto predeterminado por la plataforma que este acorde al codigo que copiamos.
 
-![]()
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm8.PNG)
+
+Figura.
+
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm9.PNG)
+
+Figura.
+
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm10.PNG)
+
+Figura.
 
 10. Damos clic en el signo de play y comenzara la simulacion
 
-![]()
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm12.PNG)
+
+Figura.
 
 11. Para el caso del cirucito que tiene el pulsador, el Diodo Led permanecera intermitente hasta que presionemos el boton del pulsador, cuando lo hagamos la simulacion se dentendrá para volver a hacer que el circuito funcione es necesario volver a iniciar la simulación.
 
