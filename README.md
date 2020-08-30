@@ -425,4 +425,8 @@ Figura.
 
 11. Para el caso del cirucito que tiene el pulsador, el Diodo Led permanecera intermitente hasta que presionemos el boton del pulsador, cuando lo hagamos la simulacion se dentendrá para volver a hacer que el circuito funcione es necesario volver a iniciar la simulación.
 
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm14.PNG)
+
 12. Para el caso del circuito usado para simular el comportamiento del semáforo solo es necesario iniciar la simulacion cuando se acaben los ciclos for el programa finalizara la ejecucion por si solo.
+
+![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm13.PNG)
