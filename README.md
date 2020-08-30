@@ -335,21 +335,21 @@ Tienen diferentes características, entre ellas la que nos interesa es que es co
 
 ### 14. BIBLIOGRAFÍA
 
-* Asociación Programo Ergo Sum. (s.f.). Programo Ergo Sum. 
+Asociación Programo Ergo Sum. (s.f.). Programo Ergo Sum. 
 
-Obtenido de https://www.programoergosum.com/cursos-online/raspberry-pi/232-curso-de-introduccion-a-raspberry-pi/que-es-raspberry-pi
+   Obtenido de https://www.programoergosum.com/cursos-online/raspberry-pi/232-curso-de-introduccion-a-raspberry-pi/que-es-raspberry-pi
  
-* ComputerHoy. (23 de enero de 2014). CH. 
+ComputerHoy. (23 de enero de 2014). CH. 
 
-Obtenido de https://computerhoy.com/noticias/hardware/que-es-raspberry-pi-donde-comprarla-como-usarla-8614
+   Obtenido de https://computerhoy.com/noticias/hardware/que-es-raspberry-pi-donde-comprarla-como-usarla-8614
  
- * Mozilla web docs. (17 de Agosto de 2020). Mozilla web docs. 
+ Mozilla web docs. (17 de Agosto de 2020). Mozilla web docs. 
  
- Obtenido de https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+    Obtenido de https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics
     
-* OpenJS Foundation. (s.f.). OpenJS Foundation. 
+OpenJS Foundation. (s.f.). OpenJS Foundation. 
 
-Obtenido de https://nodejs.org/es/about/
+   Obtenido de https://nodejs.org/es/about/
 
 ### 15. ANEXOS
 
