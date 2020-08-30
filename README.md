@@ -4,7 +4,9 @@
 
 ### 1. PLANTEAMIENTO DEL PROBLEMA
 
-
+La Raspberry PI aparece con la necesidad de incentivar y promover la enseñanza de la programación para los estudiantes que causa interés y curiosidad.
+Los campos de aplicación del Raspberry Pi son múltiples y posee numerosas posibilidades de uso generales para las que el miniordenador está predestinado. Para llevar a cabo proyectos con Raspberry Pi son necesarios ciertos conocimientos, pero si se tiene el interés suficiente, no habrá nada que impida su realización, más bien todo lo contrario: el hecho de experimentar con la placa y de aprender nuevos conocimientos que constituyen un método práctico y divertido para adentrarse en el campo electrónica digital e informática.
+En base los puntos planteados se pretende realizar un circuito que permita visualizar ejemplos de entrada y salida de datos utilizando la Raspberry Pi.
 
 ### 2. OBJETIVOS
 
