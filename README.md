@@ -324,6 +324,10 @@ Tienen diferentes características, entre ellas la que nos interesa es que es co
 
 ### 11. CONCLUSIONES
 
+•	La Raspberry posee un gran campo de aplicaciones con distintos niveles de dificultad, pero accesibles a múltiples usos predeterminados.
+•	Raspberry Pi permite la simulación de varios componentes electrónicos mediante la programación y adaptación a circuitos establecidos.
+•	La visualización de entrada y salida de datos es posible y sencilla de explicar por medio de un circuito de prueba junto con diodos leds y dispositivos de ingreso de datos como lo es un pulsador.
+
 
 ### 12. RECOMENDACIONES
 
