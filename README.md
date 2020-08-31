@@ -1,4 +1,4 @@
-# Trabajo-de-investigacion-3
+# Trabajo-de-investigacion-3 Salida y entrada de Datos en una RaspBerry PI
 
 ## Informe
 
@@ -14,14 +14,14 @@ En base los puntos planteados se pretende realizar un circuito que permita visua
 
 #### General
 
-Diseñar un circuito que permita la entrada y salidas de datos en una Raspberry Pi, para la implementación se utilizará el simulador virtual  Wiliodrin.studio.
+Diseñar un circuito que permita la entrada y salidas de datos en una Raspberry Pi, para la implementación se utilizará el simulador virtual  Wyliodrin.studio.
 
 #### Especifícos
  
 * Crear un circuito que permita la entrada y la salida de datos en una RaspBerry Pi.
 * Conocer la estructura de la Raspberry Pi, el funcionamiento y como utilizarla en circuitos digitales.
-* Investigar las instrucciones básicas de la librería GPIO de Javascript  para el control entrada y salida de datos de la Raspberry pi utilizando el simulador onlineWiliodrin.studio. 
-* Describir los principales componentes que facilita el simulador Wiliodrin.studio.
+* Investigar las instrucciones básicas de la librería GPIO de Javascript  para el control entrada y salida de datos de la Raspberry pi utilizando el simulador online Wyliodrin.studio. 
+* Describir los principales componentes que facilita el simulador Wyliodrin studio.
 
 
 ### 3. ESTADO DEL ARTE
@@ -183,30 +183,37 @@ Diagrama de funcionamiento del Circuito de Entrada de datos.
 
 ![Diagrama_1.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama_1.PNG)
 
-**Figura 6. Circuito 1**
+**Figura 7. Circuito 1**
 
 Diagrama de funcionamiento de los Circuitos de Salida de datos.
 
 ![Diagrama_2.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama_2.PNG)
 
-**Figura 7. Circuito 2 **
+**Figura 8. Circuito 2 **
 
 ![Diagrama_3.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama_3.PNG)
 
-**Figura 8. Circuito 3 **
+**Figura 9. Circuito 3 **
 
 **5.2 Diagramas de flujo**
 
-Implementación de la librería GPIO para la ejecución del programa en Javascript.
+De forma general se presenta el diagrama de flujo para el circuito 1 y 3 centrandose en el ciclo **While**
 
+![D_Flujo.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/D_Flujo.PNG)
 
+**Figura 10. Circuitos 1 y 3**
 
+Para el Circuito 2 se presenta el diagrama de flujo de forma general especificando el ciclo **For**
+
+![D_Flujo1.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/D_Flujo1.PNG)
+
+**Figura 11. Circuito 2**
 
 **5.3 Diagrama de Pines en RaspBerry Pi**
 
 ![RaspberryPi.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/RaspberryPi.png)
 
-**Figura . Pines en Raspberry Pi**
+**Figura 12. Pines en Raspberry Pi**
 
 ### 6. LISTA DE COMPONENTES
 
@@ -246,9 +253,11 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc1.PNG)
 
-**Figura. **
+**Figura 13.** Circuito 1 entrada de Datos
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc2.PNG)
+
+**Figura 14.** Código de Circuito 1 entrada de Datos
 
 Este circuito nos permite ver un Diodo LED parpadeando indefinidamente en intervalos de 1 segundo hasta cuando presionamos el botón del pulsador.
 
@@ -256,7 +265,7 @@ Creamos un objeto al cual le asignamos el paquete que vamos a usar, para poder c
 
 Creamos tantos objetos como elementos electronicos tengamos e inicializamos los mismos mandando como parametro el pin GPIO al cual esta conectado el elemento ademas debemos indicar el flujo de datos de cada elemento (entrada - in, salida - out), para nuestro ejemplo el LED representa el flujo de salida de datos y el pulsador el flujo de entrada de datos.(Linea 3, Linea 4)
 
-CICLO WHILE
+**CICLO WHILE**
 
 Como sabemos el ciclo while es una estructura repetitiva que se ejecuta indefinidamente mientras una cierta condicion sea verdadera, cuando esta condicion sea falsa se rompe el ciclo. (Linea 8)
 
@@ -268,20 +277,23 @@ En circuito fue configurado con la idea de simular el funcionamiento de un semaf
 Los diodos Led se encienden de igual forma que un semaforo y cada LED permanece encendido durante 3 segundo, luego se apaga y se enciende el siguiente LED. Este proceso se repite 2 veces. 
 Posteriormente luego de haber funcionado como un semáforo en estado normal el cirucito el circuito simula el comportamiento de un semaforo en estado preventivo, es decir, parpadea solo el led de color amarrillo 5 veces y finaliza la ejecucion del programa.
 
+
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc3.PNG)
 
-Figura.
+**Figura 15.** Circuito de salida de datos
+
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc4.PNG)
 
-Figura.
+**Figura 16.** Codigo del Circuito 2 de salida de datos
 
 Empezamos creando un objeto que nos permite controlar los pines de la raspberry al cual le asignamos el paquete "onoff" como se hizo en el ejemplo anterior. (Linea 1)
 
 Creamos 3 objetos de tipo Gpio uno para cada LED y le asignamos los pines de la raspberry a los cuales estan conetados. En este caso particular todos los elementos del circuito cumplen la funcion de salida de datos. (Linea 2,3,4)
 
-CICLO FOR
-como sabemos el ciclo for es una estructura repetitiva controlada. 
+**CICLO FOR**
+
+Como sabemos el ciclo for es una estructura repetitiva controlada. 
 En el primer for nuestro semáfono esta configurado en estado normal. (Linea 6)
 
 Impimimos un mensaje que nos indica que la simulación comenzó (linea 7)
@@ -306,11 +318,16 @@ Posteriormente finaliza la ejecución del programa.
 
 En el circuito para realizar la conexión  tanto de las entradas como de las salidas de los circuitos se hace uso de el simulador en línea WyliodrinStudio que permite trabajar en linea o descargarse en el equipo para trabajar con el.
 
+
 ![Studio.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Studio.PNG)
+
+**Figura 17.** Simulador de WyliodrinStudio
 
 Tienen diferentes características, entre ellas la que nos interesa es que es compatible con RaspBerry pi.
 
 ![Caracteristicas.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Caracteristicas.PNG)
+
+**Figura 18.** Caracteristicas de WyliodrinStudio
 
 
  |**Caracteristicas**|**Descripción **|
@@ -330,6 +347,10 @@ Tienen diferentes características, entre ellas la que nos interesa es que es co
 
 
 
+**Figura 19.** 
+
+**Figura 20.** 
+
 ### 11. CONCLUSIONES
 
 •	La Raspberry posee un gran campo de aplicaciones con distintos niveles de dificultad, pero accesibles a múltiples usos predeterminados.
@@ -344,6 +365,9 @@ Tienen diferentes características, entre ellas la que nos interesa es que es co
 ### 13. CRONOGRAMA
 
 ![Cronograma](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Cronograma.PNG)
+
+**Figura 21.** 
+
 
 ### 14. BIBLIOGRAFÍA
 
@@ -373,72 +397,76 @@ OpenJS Foundation. (s.f.). OpenJS Foundation.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm1.PNG)
 
-Figura.
+**Figura 22.** Botón de Salida
 
 3. Damos clic en proyects library 
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm2.PNG)
 
-Figura.
+**Figura 23.** Inicio del Proyecto
 
 4. Damos clic en crear una nueva aplicación
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm3.PNG)
 
-Figura.
+**Figura 24.** Creación de la aplicación
 
 5. Asignamos el nombre de nuestra aplicación y elegimos el lenguje que vamos a utilizar y damos clic en el boton Create Procjet, actualmente la plataforma solo funciona con Node JS
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm4.PNG)
 
-Figura.
+**Figura 25.** Elección del Lenguaje
 
 6. En la pantalla que se despliega damos clic en el proyecto creado.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm5.PNG)
 
-Figura.
+**Figura 26.** Click sobre el proyecto Creado
 
 7. Dependiendo del circuito que queramos utilizar copiamos el codigo de la carpeta "Codigo Fuente" y lo pegamos en la pestaña aplicacion.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm11.PNG)
 
-Figura.
+**Figura 27.** Pestaña Aplicación
 
 8. Damos clic en conectar y seleccionamos RaspberryPi
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm6.PNG)
 
-Figura.
+**Figura 28.** Botón Conectar
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm7.PNG)
 
-Figura. 
+**Figura 29.** Elección de RaspBerry PI 
 
-9. En la pestaña Raspberry Pi Simulator elegimos el circuto predeterminado por la plataforma que este acorde al codigo que copiamos.
+9. En la pestaña **Raspberry Pi Simulator** elegimos el circuto predeterminado por la plataforma que este acorde al codigo que copiamos.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm8.PNG)
 
-Figura.
+**Figura 30.** Pestaña Raspberry Pi Simulator
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm9.PNG)
 
-Figura.
+**Figura 31.** Pestaña Led
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm10.PNG)
 
-Figura.
+**Figura 32.** Plantillas de Wyliodrin Studio
 
 10. Damos clic en el signo de play y comenzara la simulacion
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm12.PNG)
 
-Figura.
+**Figura 33.** Botón Play
 
 11. Para el caso del cirucito que tiene el pulsador, el Diodo Led permanecera intermitente hasta que presionemos el boton del pulsador, cuando lo hagamos la simulacion se dentendrá para volver a hacer que el circuito funcione es necesario volver a iniciar la simulación.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm14.PNG)
 
+**Figura 34.** Circuito 1
+
 12. Para el caso del circuito usado para simular el comportamiento del semáforo solo es necesario iniciar la simulacion cuando se acaben los ciclos for el programa finalizara la ejecucion por si solo.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm13.PNG)
+
+**Figura 35.** Circuito 2
