@@ -149,7 +149,7 @@ Node.js es un entorno en tiempo de ejecución multiplataforma, de código abiert
 
 ![Node](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Node.PNG)
 
-**Figura 3. Node js**
+**Figura 4. Node js**
 
 Fue creado por Ryan Dahl en 2009 con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.y su evolución está apadrinada por la empresa Joyent, que además tiene contratado a Dahl en plantilla.
 Node.js fue creado por los desarrolladores originales de JavaScript. Lo transformaron de algo que solo podía ejecutarse en el navegador en algo que se podría ejecutar en los ordenadores como si de aplicaciones independientes se tratara. Gracias a Node.js se puede ir un paso más allá en la programación con JavaScript no solo creando sitios web interactivos, sino teniendo la capacidad de hacer cosas que otros lenguajes de secuencia de comandos como Python pueden crear.
@@ -161,7 +161,7 @@ JavaScript (JS) es un lenguaje de programación interpretado, dialecto del está
 
 ![Java](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Java.PNG)
 
-**Figura 4. JavaScript**
+**Figura 5. JavaScript**
 
 JavaScript por sí solo es bastante compacto, aunque muy flexible, y los desarrolladores han escrito gran cantidad de herramientas encima del núcleo del lenguaje JavaScript, desbloqueando una gran cantidad de funcionalidad adicional con un mínimo esfuerzo. Esto incluye:
 * Interfaces de Programación de Aplicaciones del Navegador (APIs) — APIs construidas dentro de los navegadores que ofrecen funcionalidades como crear dinámicamente contenido HTML y establecer estilos CSS, hasta capturar y manipular un vídeo desde la cámara web del usuario, o generar gráficos 3D y muestras de sonido.
@@ -176,7 +176,7 @@ Es un sistema de entrada y salida de propósito general, es decir, consta de una
 
 ![Librería GPIO](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/GPIO.PNG)
 
-**Figura 5. Librería GPIO**
+**Figura 6. Librería GPIO**
 
 Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo BCM.
 * En el modo GPIO, los pines se numeran de forma física por el lugar que ocupan en la placa (representados por el color gris) viene siendo igual para todas las versiones (comenzamos a contar desde arriba a la izquierda y finalizamos abajo a la derecha).
@@ -184,7 +184,7 @@ Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo
 
 ![Pines GPIO](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/PinesGPIO.PNG)
 
-**Figura 6. Pines GPIO**
+**Figura 7. Pines GPIO**
 
 ### 5. DIAGRAMAS
 
@@ -194,17 +194,17 @@ Diagrama de funcionamiento del Circuito de Entrada de datos.
 
 ![Diagrama_1.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama_1.PNG)
 
-**Figura 7. Circuito 1**
+**Figura 8. Circuito 1**
 
 Diagrama de funcionamiento de los Circuitos de Salida de datos.
 
 ![Diagrama_2.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama_2.PNG)
 
-**Figura 8. Circuito 2 **
+**Figura 9. Circuito 2**
 
 ![Diagrama_3.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama_3.PNG)
 
-**Figura 9. Circuito 3 **
+**Figura 10. Circuito 3**
 
 **5.2 Diagramas de flujo**
 
@@ -212,19 +212,19 @@ De forma general se presenta el diagrama de flujo para el circuito 1 y 3 centran
 
 ![D_Flujo.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/D_Flujo.PNG)
 
-**Figura 10. Circuitos 1 y 3**
+**Figura 11. Circuitos 1 y 3**
 
 Para el Circuito 2 se presenta el diagrama de flujo de forma general especificando el ciclo **For**
 
 ![D_Flujo1.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/D_Flujo1.PNG)
 
-**Figura 11. Circuito 2**
+**Figura 12. Circuito 2**
 
 **5.3 Diagrama de Pines en RaspBerry Pi**
 
 ![RaspberryPi.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/RaspberryPi.png)
 
-**Figura 12. Pines en Raspberry Pi**
+**Figura 13. Pines en Raspberry Pi**
 
 ### 6. LISTA DE COMPONENTES
 
@@ -240,7 +240,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
    |           Wiliodrin.studio.           | 
 
    
-**Tabla 2: Componentes electronicos del Circuito de Entrada y salida **
+**Tabla 2: Componentes electronicos del Circuito de Entrada y salida**
 
   | **N°** |**Componentes Electronicos**	|    
    |-------|-----------------------------|
@@ -264,11 +264,11 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc1.PNG)
 
-**Figura 13.** Circuito 1 entrada de Datos
+**Figura 14.** Circuito 1 entrada de Datos
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc2.PNG)
 
-**Figura 14.** Código de Circuito 1 entrada de Datos
+**Figura 15.** Código de Circuito 1 entrada de Datos
 
 Este circuito nos permite ver un Diodo LED parpadeando indefinidamente en intervalos de 1 segundo hasta cuando presionamos el botón del pulsador.
 
@@ -291,12 +291,12 @@ Posteriormente luego de haber funcionado como un semáforo en estado normal el c
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc3.PNG)
 
-**Figura 15.** Circuito de salida de datos
+**Figura 16.** Circuito de salida de datos
 
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fc4.PNG)
 
-**Figura 16.** Codigo del Circuito 2 de salida de datos
+**Figura 17.** Codigo del Circuito 2 de salida de datos
 
 Empezamos creando un objeto que nos permite controlar los pines de la raspberry al cual le asignamos el paquete "onoff" como se hizo en el ejemplo anterior. (Linea 1)
 
@@ -332,13 +332,13 @@ En el circuito para realizar la conexión  tanto de las entradas como de las sal
 
 ![Studio.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Studio.PNG)
 
-**Figura 17.** Simulador de WyliodrinStudio
+**Figura 18.** Simulador de WyliodrinStudio
 
 Tienen diferentes características, entre ellas la que nos interesa es que es compatible con RaspBerry pi.
 
 ![Caracteristicas.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Caracteristicas.PNG)
 
-**Figura 18.** Caracteristicas de WyliodrinStudio
+**Figura 19.** Caracteristicas de WyliodrinStudio
 
 
  |**Caracteristicas** | **Descripción**|
@@ -356,11 +356,15 @@ Tienen diferentes características, entre ellas la que nos interesa es que es co
 
 ### 10. APORTACIONES
 
+Se realizó un circuito de prueba de salida de datos con cinco leds por medio de la Raspberry Pi y el simulador Wyliodrin.
 
+![Codigo](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/CincoL.PNG)
 
-**Figura 19.** 
+**Figura 20. Código del circuito 5LEDS** 
 
-**Figura 20.** 
+![Circuito CincoLEDS](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/CincoLEDS.PNG)
+
+**Figura 21.Circuito CincoLEDS** 
 
 ### 11. CONCLUSIONES
 
@@ -381,7 +385,7 @@ Tienen diferentes características, entre ellas la que nos interesa es que es co
 
 ![Cronograma](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Cronograma.PNG)
 
-**Figura 21.** Cronograma en Monday
+**Figura 22.** Cronograma en Monday
 
 
 ### 14. BIBLIOGRAFÍA
@@ -412,76 +416,76 @@ Obtenido de https://nodejs.org/es/about/
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm1.PNG)
 
-**Figura 22.** Botón de Salida
+**Figura 23.** Botón de Salida
 
 3. Damos clic en proyects library 
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm2.PNG)
 
-**Figura 23.** Inicio del Proyecto
+**Figura 24.** Inicio del Proyecto
 
 4. Damos clic en crear una nueva aplicación
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm3.PNG)
 
-**Figura 24.** Creación de la aplicación
+**Figura 25.** Creación de la aplicación
 
 5. Asignamos el nombre de nuestra aplicación y elegimos el lenguje que vamos a utilizar y damos clic en el boton Create Procjet, actualmente la plataforma solo funciona con Node JS
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm4.PNG)
 
-**Figura 25.** Elección del Lenguaje
+**Figura 26.** Elección del Lenguaje
 
 6. En la pantalla que se despliega damos clic en el proyecto creado.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm5.PNG)
 
-**Figura 26.** Click sobre el proyecto Creado
+**Figura 27.** Click sobre el proyecto Creado
 
 7. Dependiendo del circuito que queramos utilizar copiamos el codigo de la carpeta "Codigo Fuente" y lo pegamos en la pestaña aplicacion.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm11.PNG)
 
-**Figura 27.** Pestaña Aplicación
+**Figura 28.** Pestaña Aplicación
 
 8. Damos clic en conectar y seleccionamos RaspberryPi
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm6.PNG)
 
-**Figura 28.** Botón Conectar
+**Figura 29.** Botón Conectar
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm7.PNG)
 
-**Figura 29.** Elección de RaspBerry PI 
+**Figura 30.** Elección de RaspBerry PI 
 
 9. En la pestaña **Raspberry Pi Simulator** elegimos el circuto predeterminado por la plataforma que este acorde al codigo que copiamos.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm8.PNG)
 
-**Figura 30.** Pestaña Raspberry Pi Simulator
+**Figura 31.** Pestaña Raspberry Pi Simulator
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm9.PNG)
 
-**Figura 31.** Pestaña Led
+**Figura 32.** Pestaña Led
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm10.PNG)
 
-**Figura 32.** Plantillas de Wyliodrin Studio
+**Figura 33.** Plantillas de Wyliodrin Studio
 
 10. Damos clic en el signo de play y comenzara la simulacion
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm12.PNG)
 
-**Figura 33.** Botón Play
+**Figura 34.** Botón Play
 
 11. Para el caso del cirucito que tiene el pulsador, el Diodo Led permanecera intermitente hasta que presionemos el boton del pulsador, cuando lo hagamos la simulacion se dentendrá para volver a hacer que el circuito funcione es necesario volver a iniciar la simulación.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm14.PNG)
 
-**Figura 34.** Circuito 1
+**Figura 35.** Circuito 1
 
 12. Para el caso del circuito usado para simular el comportamiento del semáforo solo es necesario iniciar la simulacion cuando se acaben los ciclos for el programa finalizara la ejecucion por si solo.
 
 ![](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/fm13.PNG)
 
-**Figura 35.** Circuito 2
+**Figura 36.** Circuito 2
