@@ -131,6 +131,18 @@ Por su parte, el Modelo A es más asequible, pero prescinde de uno de los dos pu
 
 **Figura 2. Modelo A Raspberry Pi**
 
+**Wyliodrin Studio**
+
+Wyliodrin STUDIO facilita la programación y el desarrollo de aplicaciones utilizando una Raspberry Pi y un montón de periféricos, como LED, botones y otros. Pero no todos los usuarios pueden comprar estos dispositivos, o tal vez quieran probar su código antes de ejecutarlo, para asegurarse de que no se destruya ningún componente de hardware. Para este problema, nuestro equipo ideó una solución: el Raspberry Pi Simulator . Esto brinda a los usuarios la posibilidad de simular la salida de un código que se ejecuta en una Raspberry Pi. Los usuarios pueden reflejar el comportamiento de los LED que se encienden y apagan, los botones que se presionan y las pantallas LCD de 16x2. Actualmente, el simulador es bastante restrictivo, permitiendo el uso de solo dos bibliotecas de JavaScript. Sin embargo, estamos trabajando arduamente para extenderlo a otros lenguajes y bibliotecas.
+
+El simulador es realmente sencillo de usar. Puede elegir entre varios circuitos predefinidos. Si desea tener un mejor control sobre la parte de hardware de su proyecto, puede crear su propio esquema usando Fritzing. Con respecto al software, el lenguaje de programación actualmente soportado es JavaScript.
+
+Para controlar los componentes de hardware simulados, puede elegir entre dos bibliotecas conocidas: onoff y lcd . Puede encontrar documentación sobre estas bibliotecas en el tutorial sobre cómo usar WyliodrinSTUDIO Simulator . Para acceder a él, desde Wyliodrin STUDIO, simplemente haga clic en el botón Signo de interrogación en el lado derecho de la pestaña Raspberry Pi Simulator, justo debajo de la lista de pestañas.
+
+![WS](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/WS.PNG)
+
+**Figura 3. Node js**
+
 **Node.js**
 
 Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto basado en el lenguaje de programación JavaScript, asíncrono, con Entrada/Salida de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. 
