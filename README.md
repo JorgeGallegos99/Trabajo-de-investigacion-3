@@ -179,20 +179,28 @@ Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo
 
 **5.1 Diagramas de Bloques**
 
-Diagrama de funcionamiento de un usuario en el circuito.
+Diagrama de funcionamiento del Circuito de Entrada de datos.
 
-![Diagrama%20de%20Bloques.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama%20de%20Bloques.PNG)
+![Diagrama_1.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama_1.PNG)
 
-**Figura 6. Diagram de Bloques**
+**Figura 6. Circuito 1**
+
+Diagrama de funcionamiento de los Circuitos de Salida de datos.
+
+![Diagrama_2.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama_2.PNG)
+
+**Figura 7. Circuito 2 **
+
+![Diagrama_3.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Diagrama_3.PNG)
+
+**Figura 8. Circuito 3 **
+
+**5.2 Diagramas de flujo**
+
+Implementación de la librería GPIO para la ejecución del programa en Javascript.
 
 
-**5.2 Diagrama UML**
 
-Diagrama de funcionamiento de un usuario en el circuito.
-
-![Funcionamiento.PNG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Funcionamiento.PNG)
-
-**Figura 7. Explicación del Funcionamiento**
 
 **5.3 Diagrama de Pines en RaspBerry Pi**
 
