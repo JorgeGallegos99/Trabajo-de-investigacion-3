@@ -23,7 +23,6 @@ Diseñar un circuito que permita la entrada y salidas de datos en una Raspberry 
 * Investigar las instrucciones básicas de la librería GPIO de Javascript  para el control entrada y salida de datos de la Raspberry pi utilizando el simulador online Wyliodrin.studio. 
 * Describir los principales componentes que facilita el simulador Wyliodrin studio.
 
-
 ### 3. ESTADO DEL ARTE
 
 **1. Implementación del Asistente de Google en Rasberry Pi**
@@ -168,8 +167,8 @@ Es un sistema de entrada y salida de propósito general, es decir, consta de una
 **Figura 5. Librería GPIO**
 
 Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo BCM.
-*En el modo GPIO, los pines se numeran de forma física por el lugar que ocupan en la placa (representados por el color gris) viene siendo igual para todas las versiones (comenzamos a contar desde arriba a la izquierda y finalizamos abajo a la derecha).
-*En el modo BCM, los pines se numeran por la correspondencia en el chip Broadcom (que es la CPU de la Raspberry Pi).
+* En el modo GPIO, los pines se numeran de forma física por el lugar que ocupan en la placa (representados por el color gris) viene siendo igual para todas las versiones (comenzamos a contar desde arriba a la izquierda y finalizamos abajo a la derecha).
+* En el modo BCM, los pines se numeran por la correspondencia en el chip Broadcom (que es la CPU de la Raspberry Pi).
 
 ![Pines GPIO](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/PinesGPIO.PNG)
 
@@ -353,20 +352,24 @@ Tienen diferentes características, entre ellas la que nos interesa es que es co
 
 ### 11. CONCLUSIONES
 
-•	La Raspberry posee un gran campo de aplicaciones con distintos niveles de dificultad, pero accesibles a múltiples usos predeterminados.
-•	Raspberry Pi permite la simulación de varios componentes electrónicos mediante la programación y adaptación a circuitos establecidos.
-•	La visualización de entrada y salida de datos es posible y sencilla de explicar por medio de un circuito de prueba junto con diodos leds y dispositivos de ingreso de datos como lo es un pulsador.
-
+• La visualización de entrada y salida de datos es posible y sencilla de explicar por medio de un circuito de prueba junto con diodos leds y dispositivos de ingreso de datos como lo es un pulsador.	
+* La Raspberry posee un gran campo de aplicaciones con distintos niveles de dificultad, pero accesibles a múltiples usos predeterminados, por lo que nos permitió crear circuitos tanto de entrada y salida de datos.
+•	Mediante la programación de la Raspberry Pi  mediante la libreria GPIO de Javascript  para el control entrada y salida de datos y de la y adaptación a circuitos establecidos  se pudo crear los tres circuitos.
+* Las diferentes pestañas que posee el simulador Wyliodrin studio facilitan la Programación de laS Raspberry PI y las plantillas la contruccion de los circuitos.
 
 ### 12. RECOMENDACIONES
 
+* Tener en cuenta el flujo de datos que quqeremos que reciba la Raspberry Pi.
+* Es necesario tener en cuenta donde estan ubicado y que numeración tiene cada pin en la Raspberry Pi para realizar debidamente la programación.
+* Tener en cuenta la estructura de las funciones logicas de Javascript para obtener el funcionamiento adecuado de los circuitos.
+* Pese a que se puede descargar la aplicación es preferible trabajar con el simulador en linea ya que se requiere de un modulo, y al no tener mucha informacion sobre la plataforma no se sabe cual es el modulo correcto.
 
 
 ### 13. CRONOGRAMA
 
 ![Cronograma](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/Cronograma.PNG)
 
-**Figura 21.** 
+**Figura 21.** Cronograma en Monday
 
 
 ### 14. BIBLIOGRAFÍA
