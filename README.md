@@ -329,7 +329,7 @@ Tienen diferentes características, entre ellas la que nos interesa es que es co
 **Figura 18.** Caracteristicas de WyliodrinStudio
 
 
- |**Caracteristicas**|**Descripción **|
+ |**Caracteristicas | Descripción**|
  |-------------|-------------|
  |  **Notebook**| un tutorial interactivo sobre cómo crear la aplicación| 
  |**Aplicación** |escriba el código en su idioma visual o de texto favorito| 
