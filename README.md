@@ -141,7 +141,7 @@ Para controlar los componentes de hardware simulados, puede elegir entre dos bib
 
 ![WS](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/WS.PNG)
 
-**Figura 3. Node js**
+**Figura 3. Wyliodrin Studio**
 
 **Node.js**
 
