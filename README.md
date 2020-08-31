@@ -364,7 +364,7 @@ Se realizó un circuito de prueba de salida de datos con cinco leds por medio de
 
 ![Circuito CincoLEDS](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-3/blob/master/Img/CincoLEDS.PNG)
 
-**Figura 21.Circuito CincoLEDS** 
+**Figura 21. Circuito 5LEDS** 
 
 ### 11. CONCLUSIONES
 
